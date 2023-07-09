@@ -1,0 +1,82 @@
+body {
+    background-color: #0a0c1b;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.cart {
+    background-image: url(/images/image-header-desktop.jpg);
+    background-position-x: 740px;
+    background-repeat: no-repeat;
+
+    width: 1240px;
+    height: 427px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #1c1938;
+    border-radius: 15px;
+}
+
+.section-cart-text {
+    width: 1290px;
+    text-align: start;
+    margin-left: 60px;
+    margin: 100px;
+}
+
+.insinghts {
+    font-size: 34px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.color-violet-text {
+    color: rgb(168, 96, 215);
+}
+
+.paragraf-title {
+    font-size: 18px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.statystykc {
+    display: inline-grid;
+    padding-top: 140px;
+    margin: 20px;
+}
+
+.companies {
+    display: grid;
+    column-gap: 35px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(123%, -490%);
+    padding: 10px;
+    color: #feffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.statystykc-detal {
+    text-align: center;
+    display: grid;
+    column-gap: 35px;
+    color: #feffff;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(120%, -750%);
+    padding: 10px;
+
+    letter-spacing: 0.100px;
+}
